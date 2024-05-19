@@ -1,0 +1,31 @@
+.tooltiptext {
+    /* visibility: hidden; */
+    background-color: rgb(245, 245, 245);
+    color: #000;
+    border-radius: 4px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10;
+    /* bottom: 100%; */
+    left: 46%;
+    margin-top: 50px;
+    /* margin-left: -60px; */
+    /* transform: translateX(-50%); */
+    max-width: 500px;
+    min-width: 200px;
+  }
+
+  .slider_img_div{
+    
+  }
+
+  .slider_img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+  }
