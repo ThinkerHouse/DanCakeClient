@@ -135,6 +135,15 @@ export {
     deleteReceiveOrder,
 } from './ReceiveOrdersActions';
 
+export {
+    fetchWastagesList,
+    fetchWastageSingle,
+    createWastage,
+    updateWastage,
+    deleteWastage,
+} from './WastageActions';
+
+
 
 
 

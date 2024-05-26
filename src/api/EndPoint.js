@@ -70,4 +70,7 @@ export const endpoint = {
 	// RECEIVED ORDERS
 	RECEIVED_ORDERS_BASE: 'received_orders',
 	RECEIVED_ORDERS_POST: 'received_orders/',
+
+	WASTAGE_BASE: 'wastage',
+    WASTAGE_POST: 'wastage/',
 };

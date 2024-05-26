@@ -19,7 +19,7 @@ const CreateRequisitionForm = (props) => {
             {
                 material: '',
                 quantity: '',
-                unit: ''
+                // unit: ''
             }
         ]
     }
@@ -34,7 +34,7 @@ const CreateRequisitionForm = (props) => {
         const newItem = {
             material: '',
             quantity: '',
-            unit: ''
+            // unit: ''
         };
 
         formik.setFieldValue('requisition_items', [...formik.values.requisition_items, newItem]);
@@ -121,7 +121,7 @@ const CreateRequisitionForm = (props) => {
                                 )}
                             </div>
 
-                            <div className="w-full xl:w-1/4">
+                            {/* <div className="w-full xl:w-1/4">
                                 <label className="mb-2.5 block text-black dark:text-white">Units</label>
                                 <select
                                     id={`requisition_items[${index}].unit`}
@@ -149,7 +149,7 @@ const CreateRequisitionForm = (props) => {
                                 {formik.errors.requisition_items && formik.errors.requisition_items[index] && formik.errors.requisition_items[index].material && (
                                     <p className="text-sm text-[#F87171] mt-1">{formik.errors.requisition_items[index].material}</p>
                                 )}
-                            </div>
+                            </div> */}
 
                             <div className="w-full xl:w-1/4">
                                 <label className="mb-2.5 block text-black dark:text-white">

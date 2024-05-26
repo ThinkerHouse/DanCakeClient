@@ -18,6 +18,7 @@ import ProductsReducer from './ProductsReducer';
 import RecipeReducer from './RecipeReducer';
 import RequisitionReducer from './RequisitionReducer';
 import ReceiveOrderReducer from './ReceiveOrderReducer';
+import WastageReducer from './WastageReducer';
 
 
 // Combine reducers
@@ -38,7 +39,8 @@ const rootReducer = combineReducers({
 	products: ProductsReducer,
 	recipe: RecipeReducer,
 	requisition: RequisitionReducer,
-	receiveOrders: ReceiveOrderReducer
+	receiveOrders: ReceiveOrderReducer,
+	wastageReducer: WastageReducer,
 });
 
 export default rootReducer;

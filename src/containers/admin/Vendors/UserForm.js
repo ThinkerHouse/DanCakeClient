@@ -90,7 +90,7 @@ const UserForm = (props) => {
 				</div>
 
 				<div className="mb-4.5 flex flex-col gap-6 xl:flex-row">
-					<div className="w-full xl:w-1/2">
+					{/* <div className="w-full xl:w-1/2">
 						<MultiSelect
 							required={false}
 							optionsData={roles || []}
@@ -100,8 +100,8 @@ const UserForm = (props) => {
 							placeholder="Select Roles"
 							isDisabled={disableCheck}
 						/>
-					</div>
-
+					</div> */}
+ 
 					<div className="w-full xl:w-1/2">
 						<FormField type="select" label="Status" id="is_active" options={activeStatusOptions} formik={formik} disabled={disableCheck} />
 					</div>
