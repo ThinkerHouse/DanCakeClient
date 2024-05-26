@@ -19,7 +19,7 @@ const RequisitionForm = (props) => {
                 {
                     material: '',
                     quantity: '',
-                    unit: ''
+                    // unit: ''
                 }
             ]
         },
@@ -45,7 +45,7 @@ const RequisitionForm = (props) => {
         <AdminForm formik={formik} onBtnCancelClick={props.onCancel} hideSave={disableCheck}>
             <div className="p-6.5">
                 <div className="mb-4.5 flex flex-col gap-6 xl:flex-row">
-                    <div className="w-full xl:w-1/2">
+                    <div className="w-full">
                         <FormField type="text" label={"Batch No"} id={"batch_no"} formik={formik} disabled={disableCheck ? true : false} />
                     </div>
                 </div>
@@ -137,7 +137,7 @@ const RequisitionForm = (props) => {
                                 )}
                             </div>
 
-                            <div className="w-full xl:w-1/4">
+                            {/* <div className="w-full xl:w-1/4">
                                 <label className="mb-2.5 block text-black dark:text-white">Units</label>
                                 <select
                                     id={`requisition_items[${index}].unit`}
@@ -165,7 +165,7 @@ const RequisitionForm = (props) => {
                                 {formik.errors.requisition_items && formik.errors.requisition_items[index] && formik.errors.requisition_items[index].material && (
                                     <p className="text-sm text-[#F87171] mt-1">{formik.errors.requisition_items[index].material}</p>
                                 )}
-                            </div>
+                            </div> */}
 
                             <div className="w-full xl:w-1/4">
                                 <label className="mb-2.5 block text-black dark:text-white">

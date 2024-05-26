@@ -21,7 +21,7 @@ const PurchaseOrderForm = (props) => {
 		received_order_items: [
 			{
 				purchase_order_item: '',
-				storage_condition: '',
+				// storage_condition: '',
 				quantity: '',
 			}
 		]
@@ -36,7 +36,7 @@ const PurchaseOrderForm = (props) => {
 	let handleRowAdd = () => {
 		const newItem = {
 			purchase_order_item: '',
-			storage_condition: '',
+			// storage_condition: '',
 			quantity: '',
 		};
 
@@ -133,7 +133,7 @@ const PurchaseOrderForm = (props) => {
 								)}
 							</div>
 
-							<div className="w-full xl:w-1/4">
+							{/* <div className="w-full xl:w-1/4">
 								<label className="mb-2.5 block text-black dark:text-white">Storage Condition</label>
 								<select
 									id={`received_order_items[${index}].storage_condition`}
@@ -159,7 +159,7 @@ const PurchaseOrderForm = (props) => {
 								{formik.errors.received_order_items && formik.errors.received_order_items[index] && formik.errors.received_order_items[index].storage_condition && (
 									<p className="text-sm text-[#F87171] mt-1">{formik.errors.received_order_items[index].storage_condition}</p>
 								)}
-							</div>
+							</div> */}
 
 
 							<div className="w-full xl:w-1/4">

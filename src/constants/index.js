@@ -48,6 +48,15 @@ const receivedOrderStatusOptions = [
     { value: 'rejected', label: 'Rejected' },
 ];
 
+const wastageFromOptions = [
+    { value: 'production', label: 'Production' },
+    { value: 'finish_good', label: 'Finish Good' },
+];
+
+const wastageTypeOptions = [
+    { value: 'actual', label: 'Actual' },
+    { value: 'overflow', label: 'Overflow' },
+];
 
 const countryOptions = [{ value: 1, label: 'Bangladesh' }];
 
@@ -60,5 +69,7 @@ export {
 	countryOptions,
 	checkListTypeOptions,
 	storageTypeOptions,
-	receivedOrderStatusOptions
+	receivedOrderStatusOptions,
+	wastageFromOptions,
+	wastageTypeOptions
 };

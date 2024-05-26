@@ -19,7 +19,7 @@ const CreatePurchaseOrderForm = (props) => {
 			{
 				product: '',
 				quantity: '',
-				unit: ''
+				// unit: ''
 			}
 		]
 	}
@@ -35,7 +35,7 @@ const CreatePurchaseOrderForm = (props) => {
 		const newItem = {
 			product: '',
 			quantity: '',
-			unit: ''
+			// unit: ''
 		};
 
 		const newItemsArray = [...formik.values.production_items, newItem];
@@ -135,7 +135,7 @@ const CreatePurchaseOrderForm = (props) => {
 								)}
 							</div>
 
-							<div className="w-full xl:w-1/4">
+							{/* <div className="w-full xl:w-1/4">
 								<label className="mb-2.5 block text-black dark:text-white">Units</label>
 								<select
 									id={`production_items[${index}].unit`}
@@ -163,7 +163,7 @@ const CreatePurchaseOrderForm = (props) => {
 								{formik.errors.production_items && formik.errors.production_items[index] && formik.errors.production_items[index].material && (
 									<p className="text-sm text-[#F87171] mt-1">{formik.errors.production_items[index].material}</p>
 								)}
-							</div>
+							</div> */}
 
 							<div className="w-full xl:w-1/4">
 								<label className="mb-2.5 block text-black dark:text-white">
